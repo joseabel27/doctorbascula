@@ -60,37 +60,22 @@
 
 .titulo-principal{
   
-  border: solid 1px green;
+  border: solid 2px green;
   font-size:40px;
   font-family: "Anton SC", serif;
   font-weight: 400;
   font-style: normal;
-  margin-top:40px;
-}
-
-
-.sutitulo{
-
-  border: solid 1px orange;
-  color: black;
-  max-width:820px;
-  margin-top:50px;
-  margin-bottom: 50px;
-  padding:5px;
-  text-align:center;
-  font-family: "Arsenal SC", serif;
-  font-style:italic;
-  font-weight:bold;
-  font-size:1.1rem;
   
 }
+
+
 
 /* IMAGEN HERO */
 
 .imagen-hero{
 
   border:solid 1px brown;
-  margin-top:2px;
+  margin-top:25px;
   margin-bottom:30px;
 }
 
