@@ -20,7 +20,7 @@
   text-decoration: none;
   color: black;
   background-color: white;
-  transition:1000ms;
+  transition:700ms;
 }
 
 .menu a:hover{
@@ -81,7 +81,7 @@
 
 /* ESTILOS SECCION SOPORTE */
 
-.soporte{
+.servicios{
 
   border:solid 2px purple;
   min-height:400px;
@@ -89,7 +89,7 @@
 
 }
 
-.titulo-soporte{
+.titulo-servicios{
   
   border:solid 1px red;
   color:white;
@@ -98,11 +98,12 @@
   font-weight: 400;
   font-style: normal;
   
+  
 
 
 }
 
-.subtitulo-soporte{
+.subtitulo-servicios{
   
   border:solid 1px red;
   color:white;
@@ -115,6 +116,7 @@
   font-style:italic;
   font-weight:bold;
   font-size:1.1rem;
+  
 
   
 }
