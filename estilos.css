@@ -79,7 +79,7 @@
   margin-bottom:30px;
 }
 
-/* ESTILOS SECCION SOPORTE */
+/* ESTILOS SECCION SERVICIOS */
 
 .servicios{
 
@@ -108,18 +108,36 @@
   border:solid 1px red;
   color:white;
   max-width:820px;
-  margin-top:50px;
+  margin-top:40px;
   margin-bottom: 50px;
   padding:5px;
   text-align:center;
   font-family: "Arsenal SC", serif;
   font-style:italic;
-  font-weight:bold;
   font-size:1.1rem;
   
 
   
 }
+
+.detalles{
+
+  border: solid 1px black;
+  text-align: center;
+}
+
+.row{
+
+  border:solid 1px yellow;
+}
+
+.columnas {
+
+  border: solid 1px black;
+  background-color: #f5f5f5;
+  color:black;
+} 
+
 /* MEDIAS QUERYS */
 
 @media (max-width: 500px) {
