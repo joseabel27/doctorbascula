@@ -99,6 +99,14 @@
 
 }
 
+.subtitulo-servicios{
+
+  color:white;
+  font-style: italic;
+  font-family: cursive;
+  font-size:18px;
+}
+
 .contenedor{
   max-width: 900px ;
   text-align:center;
