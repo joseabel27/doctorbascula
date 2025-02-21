@@ -89,36 +89,26 @@
 
 }
 
-.titulo-servicios{
-  
-  border:solid 1px red;
-  color:white;
+.titulo-servicios {
   font-size:40px;
   font-family: "Anton SC", serif;
   font-weight: 400;
   font-style: normal;
+  margin:20px;
   
-  
-
 
 }
 
-.subtitulo-servicios{
-  
-  border:solid 1px red;
-  color:white;
-  max-width:820px;
-  margin-top:40px;
-  margin-bottom: 50px;
-  padding:5px;
+.contenedor{
+  max-width: 900px ;
   text-align:center;
-  font-family: "Arsenal SC", serif;
-  font-style:italic;
-  font-size:1.1rem;
-  
-
+  color:white;
+  font-family: "Anton SC", serif;
+  font-weight: 400;
+  font-style: normal;
   
 }
+
 
 .detalles{
 
@@ -136,6 +126,7 @@
   border: solid 1px black;
   background-color: #f5f5f5;
   color:black;
+  
 } 
 
 /* MEDIAS QUERYS */
