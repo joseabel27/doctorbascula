@@ -94,7 +94,6 @@
   font-family: "Anton SC", serif;
   font-weight: 400;
   font-style: normal;
-  margin:20px;
   
 
 }
@@ -122,11 +121,15 @@
 
   border: solid 1px black;
   text-align: center;
+  margin-top:40px;
 }
 
-.row{
+.reparaciones{
 
   border:solid 1px yellow;
+  height: 200px;
+  min-width: 300px;
+  
 }
 
 .columnas {
