@@ -84,7 +84,7 @@
 .servicios{
 
   border:solid 2px purple;
-  min-height:400px;
+  min-height:600px;
   background-color: #1A2A5A;
 
 }
@@ -94,7 +94,7 @@
   font-family: "Anton SC", serif;
   font-weight: 400;
   font-style: normal;
-  
+  margin-top: 20px;
 
 }
 
@@ -104,6 +104,8 @@
   font-style: italic;
   font-family: cursive;
   font-size:18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .contenedor{
@@ -139,6 +141,19 @@
   color:black;
   
 } 
+
+.detalles img{
+
+  width: 30px;
+  margin-top:10px;
+  
+}
+
+.detalles .reparaciones p{
+
+  margin-top:50px;
+  text-align: center;
+}
 
 /* MEDIAS QUERYS */
 
