@@ -8,7 +8,7 @@
 
 
 .menu{
-  /* border:solid 1px red; */
+  border:solid 1px red;
   position: absolute;
   right:50px;
 }
@@ -16,7 +16,7 @@
 .menu a{
   padding:6px;
   margin:8px;
-  /* border: solid 1px black; */
+  border: solid 1px black;
   text-decoration: none;
   color: black;
   background-color: white;
@@ -27,14 +27,14 @@
 
   color:white;
   background-color: #4caf50;
-  /* border:solid 1px white; */
+  border:solid 1px white;
 }
 
 /* NAVEGACION */
 
 
 .navegacion {
-  /* border:solid 2px orange; */
+  border:solid 1px orange;
   background-color: #1A2A5A;
   color: white;
   height: 100px;
@@ -43,7 +43,7 @@
 }
 
 .navegacion h1{
-  /* border:solid 1px green; */
+  border:solid 1px green;
   color: white;
   margin-left: 20px;
 }
@@ -52,15 +52,14 @@
 /* ESTILOS GENERALES SECCION HERO*/
 
 .hero{
-  /* border:solid 2px black; */
+  border:solid 2px black;
   background-color: #f5f5f5;
-  /* border: solid 2px blue; */
-  min-height: 400px;
+   min-height: 400px;
 }
 
 .titulo-principal{
   
-  /* border: solid 2px green; */
+  border: solid 2px green;
   font-size:40px;
   font-family: "Anton SC", serif;
   font-weight: 400;
@@ -74,7 +73,7 @@
 
 .imagen-hero{
 
-  /* border:solid 1px brown; */
+  border:solid 1px brown;
   margin-top:25px;
   margin-bottom:30px;
 }
@@ -83,8 +82,8 @@
 
 .servicios{
 
-  /* border:solid 2px purple; */
-  max-height:300px;
+  border:solid 2px purple;
+  max-height:400px;
   background-color: #1A2A5A;
   
 
@@ -122,7 +121,7 @@
 
 .detalles{
 
-  /* border: solid 1px green; */
+  border: solid 1px green;
   text-align: center;
   background-color: #f5f5f5;
   min-height: 400px;
@@ -132,7 +131,7 @@
 
 .detalles .reparaciones{
 
-  /* border:solid 2px rgb(16, 158, 224); */
+  border:solid 2px rgb(16, 158, 224);
   min-height:250px;
   width:max-content;
   margin-top:50px;
@@ -142,7 +141,7 @@
 
 .columnas{
 
-  /* border: solid 1px goldenrod; */
+  border: solid 1px goldenrod;
   
  
 
@@ -174,7 +173,12 @@
 
 .galeria{
 
-  /* border:solid 2px purple; */
+  border:solid 2px purple;
+}
+
+.fotos row{
+
+  margin-bottom:10px;
 }
 
 
@@ -191,6 +195,11 @@
   .reparaciones img{
 
     margin-top: 20px ;
+  }
+
+  .galeria{
+
+    text-align: center;
   }
 
 }
