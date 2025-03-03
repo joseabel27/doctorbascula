@@ -6,7 +6,10 @@
 
 /* ESTILOS TIPOGRAFIA MENU */
 
+.menu{
 
+  display:none;
+}
 .menu{
   border:solid 1px red;
   position: absolute;
@@ -90,6 +93,8 @@
 }
 
 .titulo-servicios {
+  
+  
   font-size:40px;
   font-family: "Anton SC", serif;
   font-weight: 400;
@@ -131,7 +136,7 @@
 
 .detalles .reparaciones{
 
-  border:solid 2px rgb(16, 158, 224);
+  /* border:solid 2px rgb(16, 158, 224); */
   min-height:250px;
   width:max-content;
   margin-top:50px;
@@ -141,14 +146,14 @@
 
 .columnas{
 
-  border: solid 1px goldenrod;
+  border: solid 1px rgb(179, 156, 156);
   
  
 
 }
 
 .reparaciones img{
-
+  margin-top: 10px;
   height:40px;
   margin-bottom:40px;
 }
@@ -176,9 +181,20 @@
   border:solid 2px purple;
 }
 
-.fotos row{
+.imagenes img{
 
-  margin-bottom:10px;
+  margin-bottom:20px;
+}
+
+.titulo-productos {
+ 
+  
+  font-size:40px;
+  font-family: "Anton SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -215,4 +231,12 @@
     text-align: center;
   }
 
+}
+
+@media (width:500px), (max-width:828px){
+
+  .menu{
+    
+    display:block;
+}
 }
