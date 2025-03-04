@@ -6,15 +6,14 @@
 
 /* ESTILOS TIPOGRAFIA MENU */
 
-.menu{
 
-  display:none;
-}
 .menu{
   border:solid 1px red;
   position: absolute;
   right:50px;
 }
+
+
 
 .menu a{
   padding:6px;
@@ -24,6 +23,7 @@
   color: black;
   background-color: white;
   transition:700ms;
+  
 }
 
 .menu a:hover{
@@ -40,16 +40,20 @@
   border:solid 1px orange;
   background-color: #1A2A5A;
   color: white;
-  height: 100px;
+  height: 120px;
+  display:flex;
+
   
   
 }
 
-.navegacion h1{
-  border:solid 1px green;
-  color: white;
-  margin-left: 20px;
+.navegacion img{
+  
+  border-radius:50%;
+  margin-right:20px;
+  height:100px;
 }
+
 
 
 /* ESTILOS GENERALES SECCION HERO*/
@@ -200,43 +204,43 @@
 
 /* MEDIAS QUERYS */
 
-@media (max-width: 500px) {
-  h1 {
-  position: absolute;
-  right:80px;
-  top:10px;
+@media (max-width:412px){
 
+  .navegacion img{
+
+    display:none;
   }
 
-  .reparaciones img{
+  .navegacion h1{
 
-    margin-top: 20px ;
+    display:none;
   }
-
-  .galeria{
-
-    text-align: center;
-  }
-
-}
-
-
-@media (max-width: 730px) {
-  .menu {
-    position: absolute;
-    right: 80px;
-    top: 70px;
-    font-size:10px;
-    width: 300px;
-    text-align: center;
-  }
-
-}
-
-@media (width:500px), (max-width:828px){
 
   .menu{
     
-    display:block;
+    position:relative;
+    right:-2px;
+
+  }
 }
+
+@media (max-width:500px){
+  
+  .navegacion img{
+
+    display:none;
+  }
+
+  .navegacion h1{
+
+    display:none;
+  }
+}
+
+@media (max-width:937px){
+
+  .navegacion h1{
+
+    display:none;
+  }
 }
