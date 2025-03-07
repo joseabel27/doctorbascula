@@ -138,6 +138,8 @@
   
 }
 
+
+
 .detalles .reparaciones{
 
   /* border:solid 2px rgb(16, 158, 224); */
@@ -151,9 +153,15 @@
 .columnas{
 
   border: solid 1px rgb(179, 156, 156);
+  transition: 700ms;
   
  
 
+}
+
+.columnas:hover{
+
+  background-color:#4caf50 ;
 }
 
 .reparaciones img{
@@ -186,29 +194,9 @@
   background-color: #1A2A5A;
 }
 
-.imagenes img{
+.fotos .columnas-photo{
 
-  margin-bottom:20px;
-  transition: all 0.2s ease;
-
-}
-
-.overlay {
-
-  transition: all 0.2s ease;
-  opacity: 0;
-  position:absolute;
-  left:50%;
-  right:50%;
-  transform: translate(-50%,-50%);
-  text-align:center;
-}
-
-.overlay p{
-
-  font-size:25px;
-  font-weight:bold;
-
+  margin-bottom:10px;
 }
 
 
@@ -222,6 +210,51 @@
   font-style: normal;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.photo-item{
+
+  position:relative;
+ 
+
+ 
+}
+
+.photo-item img{
+
+ 
+  border-radius: 10px;
+  transition:opacity 0.3s ease ;
+}
+
+.photo-item .overlay {
+  position: absolute;
+  top: 80px;
+  left: 55px;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.3s ease; /* Transición suave */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-item .overlay-text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold; /* Texto en negrita */
+  text-align: center;
+  
+  margin: 0;
+}
+
+.photo-item:hover img {
+  opacity: 0.5; /* Baja la opacidad de la imagen */
+}
+
+.photo-item:hover .overlay {
+  opacity: 1; /* Muestra el overlay */
 }
 
 
