@@ -162,6 +162,8 @@
 .columnas:hover{
 
   background-color:#4caf50 ;
+  color:white;
+  
 }
 
 .reparaciones img{
@@ -255,6 +257,60 @@
 
 .photo-item:hover .overlay {
   opacity: 1; /* Muestra el overlay */
+}
+
+.description-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #D4AF37; /* Color de acento */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.description-btn:hover {
+  background-color: #C5A23D; /* Color de acento más oscuro */
+}
+
+
+/* Estilos para la ventana emergente (modal) */
+.modal {
+  display: none; /* Oculta el modal por defecto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+  top:200px;
+  left:400px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.close-modal:hover {
+  color: #000;
 }
 
 
