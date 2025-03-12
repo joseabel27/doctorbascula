@@ -157,7 +157,8 @@
 .columnas{
 
   border: solid 1px rgb(179, 156, 156);
-  transition: 700ms;
+  /* transition: 700ms; */
+  transition: background-color 0.6s ease;
   
  
 
@@ -270,7 +271,7 @@
 .description-btn {
   margin-top: 0px;
   padding: 5px 5px 5px 5px;
-  background-color: #D4AF37; /* Color de acento */
+  background-color: #FF6F61; /* Color de acento */
   color: white;
   border: none;
   cursor: pointer;
@@ -350,6 +351,28 @@
   margin-bottom: 40px;
   max-width:900px;
   text-align: center;
+}
+
+.card{
+
+  margin: 40px;
+}
+
+/* ESTILOS SECCION TESTIMONIOS */
+
+.testimonios{
+
+  border:solid 2px black;
+  background-color: #1A2A5A;
+  min-height: 400px;
+}
+
+.clientes p{
+
+  color:white;
+  max-width: 500px;
+  text-align: center;
+  margin-top: 50px;
 }
 /* MEDIAS QUERYS */
 
