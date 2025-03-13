@@ -440,6 +440,31 @@
   margin-top:40px;
 }
 
+.pie-informacion .letter{
+  border:solid 1px red;
+  height:40px;
+  padding: 0px 15px 0px 0px;
+}
+
+.pie-informacion{
+
+  border-right:solid 1px rgb(16, 158, 224);
+  text-align: center;
+}
+
+
+.pie-informacion  a{
+  border:solid 1px red;
+  text-decoration:none;
+}
+.pie-informacion .sociales img{
+
+  border:solid 1px blue;
+  height:40px;
+  margin-top:20px;
+  margin:15px;
+}
+
 /* MEDIAS QUERYS */
 
 @media (max-width:412px){
