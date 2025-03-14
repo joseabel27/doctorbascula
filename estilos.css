@@ -440,6 +440,18 @@
   margin-top:40px;
 }
 
+.pie-menu{
+
+  margin-top:50px;
+  padding:10px;
+}
+
+
+.pie-menu a{
+
+  text-decoration: none;
+  padding:2px;
+}
 .pie-informacion .letter{
   border:solid 1px red;
   height:40px;
