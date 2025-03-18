@@ -100,6 +100,14 @@
   max-width:900px;
 }
 
+.fijo{
+
+  height:80px;
+  position:fixed;
+  right:50px;
+  z-index:100;
+}
+
 .solucion{
 
   color:black;
@@ -388,7 +396,7 @@
 }
 .testimonios{
 
-  border:solid 2px rgb(236, 9, 9);
+  /* border:solid 2px rgb(236, 9, 9); */
   background-color: #1A2A5A;
   text-align: center;
   color:white;
