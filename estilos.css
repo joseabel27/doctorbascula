@@ -106,7 +106,7 @@
   position:fixed;
   right:50px;
   z-index:100;
-  animation: girar 10s linear infinite;
+  animation: girar 20s linear infinite;
 }
 
 /*  ANIMACION PARA QUE GIRE EL LOGO*/
