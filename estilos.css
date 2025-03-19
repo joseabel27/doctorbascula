@@ -106,7 +106,20 @@
   position:fixed;
   right:50px;
   z-index:100;
+  animation: girar 10s linear infinite;
 }
+
+/*  ANIMACION PARA QUE GIRE EL LOGO*/
+
+@keyframes girar {
+  from {
+    transform:rotateY('angle')(0deg); /* Inicia la rotación en 0 grados */
+  }
+  to {
+    transform: rotateY(360deg); /* Termina la rotación en 360 grados */
+  }
+}
+
 
 .solucion{
 
