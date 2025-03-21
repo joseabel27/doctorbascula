@@ -82,11 +82,10 @@
 
 /* IMAGEN HERO */
 
-.imagen-hero{
+#carousel-capsula{
 
-  /* border:solid 1px brown; */
-  margin-top:25px;
-  margin-bottom:30px;
+  border: solid 1px orange;
+  width:438px;
 }
 
 .gatillomental{
@@ -105,10 +104,12 @@
 
   height:80px;
   position:fixed;
+  top:200px;
   right:50px;
   z-index:100;
   animation: girar 20s linear infinite;
 }
+
 
 /*  ANIMACION PARA QUE GIRE EL LOGO*/
 
@@ -274,7 +275,7 @@
 
 .photo-item img{
 
- 
+  width: 238px; 
   border-radius: 10px;
   transition:opacity 0.3s ease ;
 }
