@@ -400,8 +400,15 @@
 }
 
 .card{
+  
+  margin-left:55px;
+  margin-bottom: 40px;
+}
 
-  margin: 40px;
+.sopor{
+  
+ 
+  width:100%;
 }
 
 /* ESTILOS SECCION TESTIMONIOS */
