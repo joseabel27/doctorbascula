@@ -354,7 +354,12 @@
   position: relative;
   top:200px;
   left:400px;
-  /* text-align: left; */
+  text-align: left;
+}
+
+.modal-content h2{
+
+  text-align:center;
 }
 
 .close-modal {
