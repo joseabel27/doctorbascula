@@ -581,6 +581,10 @@
     display:none;
   }
 
+  .ayuda{
+    display:none;
+  }
+
   .navegacion h1{
 
     display:none;
@@ -686,3 +690,4 @@
 
   height:610px;
 }
+
