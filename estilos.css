@@ -99,6 +99,15 @@
   max-width:900px;
 }
 
+.ayuda{
+
+  
+  
+  position:fixed;
+  top:280px;
+  right:20px;
+  z-index:100;
+}
 
 .fijo{
 
