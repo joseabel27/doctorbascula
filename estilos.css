@@ -84,7 +84,7 @@
 
 #carousel-capsula{
 
-  border: solid 1px orange;
+  /* border: solid 1px orange; */
   width:438px;
 }
 
@@ -99,10 +99,10 @@
   max-width:900px;
 }
 
-.ayuda{
+.ayuda img{
 
-  
-  
+  border-radius: 8px;
+  height: 50px;  
   position:fixed;
   top:280px;
   right:20px;
