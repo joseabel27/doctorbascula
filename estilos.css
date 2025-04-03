@@ -86,6 +86,7 @@
 
   /* border: solid 1px orange; */
   width:438px;
+  margin-top:50px;
 }
 
 .gatillomental{
@@ -570,6 +571,10 @@
 
   /* border: solid 1px green; */
   padding-top: 100px;
+}
+
+span{
+  font-weight: bold;
 }
 
 /* MEDIAS QUERYS */
