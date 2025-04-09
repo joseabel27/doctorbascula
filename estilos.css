@@ -638,6 +638,11 @@ span{
     text-align:center;
   }
 
+  .titulo_subtitulo p{
+
+    display:none;
+  }
+
   .modal-content{
 
     position:relative;
