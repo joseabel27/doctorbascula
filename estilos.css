@@ -58,6 +58,13 @@
   height:100px;
 }
 
+.titulo_subtitulo p{
+
+  font-style: italic;
+}
+
+  
+
 
 
 /* ESTILOS GENERALES SECCION HERO*/
@@ -666,7 +673,7 @@ span{
 .card{
 
   position:relative;
-  left:50px;
+  left: 20px;
 }
 
 .testimonio-info{
