@@ -7,46 +7,6 @@
 
 /* ESTILOS TIPOGRAFIA MENU */
 
-
-.navega2 {
-  /* border:solid 1px red; */
-  position: absolute;
-  right:5px;
-}
-
-
-
-.navega2 a{
-  padding:6px;
-  margin:8px;
-  /* border: solid 1px black; */
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  transition:700ms;
-  
-}
-
-.navega2 a:hover{
-
-  color:white;
-  background-color: #4caf50;
-  /* border:solid 1px white; */
-}
-
-/* NAVEGACION */
-
-
-/* .navegacion { */
-  /* border:solid 1px orange; */
-  /* background-color: #1A2A5A;
-  color: white;
-  height: 120px; */
-  /* display:flex; */
-  /* position:fixed;
-  top:0px;
-  z-index: 100; */
-
 .navega {
  background-color:#1A2A5A ;
  color: white;
@@ -61,6 +21,12 @@
   height:100px;
 }
 
+.navega2 a{
+
+  border:solid 2px white;
+  color:white;
+  padding:6px;
+}
 .titulo_subtitulo p{
 
   font-style: italic;
