@@ -10,7 +10,7 @@
 .navega {
  background-color:#1A2A5A ;
  color: white;
- border: solid 1px red;
+ /* border: solid 1px red; */
 
 }
 
@@ -21,12 +21,12 @@
   margin-right:20px;
   height:100px;
 }
-
+/* 
 .navega2{
 
   border:solid 1px yellow;
 
-}
+} */
 
 .navega2 a{
   position: relative;
@@ -629,6 +629,20 @@ span{
 @media (max-width:412px){
 
 
+
+  .navega2 a{
+    display: flex;
+    position: relative;
+    left:10px;
+    background-color: transparent;
+    color:white;
+
+
+  
+
+}
+
+
   .columnas-photo .overlay{
 
     position:absolute;
@@ -658,12 +672,7 @@ span{
     left:2px;
   }
 
-  .menu a{
-
-    font-size:10px;
-    
   }
-}
 
 .pie .sociales{
 
@@ -710,3 +719,4 @@ span{
   height:610px;
 }
 
+}
