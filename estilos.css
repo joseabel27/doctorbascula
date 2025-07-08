@@ -10,7 +10,8 @@
 .navega {
  background-color:#1A2A5A ;
  color: white;
- /* border: solid 1px red; */
+ border: solid 1px red;
+ 
 
 }
 
@@ -599,11 +600,7 @@ span{
 
   }
 
-  .navega2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  
 
 @media (max-width:500px){
   
