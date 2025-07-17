@@ -34,6 +34,7 @@
   right:-200px;
   color:black;
   background-color: white;
+  border-radius: 2px 2px 2px 2px;
   padding:4px;
   transition: 800ms;
 
